@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="app.css">
+
+    <style>
+        h1 {
+            text-align: center;
+            color: rgb(132, 62, 224);
+            background-color: aliceblue;
+            < !--see google fonts for other external font families curriculum 3.1.11-->< !--see app.css for H1 font-family-->< !--see app.css for H1,
+            practice text decoration-->< !--vh vp 3.1.9 in curriculum-->font-weight: 900;
+            font-size: 5vw;
+            < !--scales text size as viewport changes (vw) size (relative)-->line-height: 1;
+            < !--MDN for more text and font size properties MDN for other options on font size properties,
+            css units-->
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <a href="Home">Home</a>
+            <a href="About">About</a>
+            <a href="Other Exercises">Other Exercises</a>
+        </nav>
+        <h1> <i> Meme Generator </i> </h1>
+
+        <form id="userInput">
+            <label>
+                <span>I agree to the terms of service
+                    <input name="termOfService" type="checkbox" required>
+                    <a href="termsOfService.html">Read our terms of service</a>
+                </span>
+            </label>
+            <br><br>
+            <label>
+                <span> Can we have your name?
+                    <input name="username" type="text" id="userName" placeholder="Your Name?">
+                </span>
+            </label>
+            <br><br>
+            <label>
+                <span>Can we have your email?
+                    <input name="email" type="email" placeholder="Your email address?">
+                </span>
+                <br><br>
+            </label>
+
+            <button name="startYourMeme" type="submit" id="startYourMeme">Let's Start</button>
+        </form>
+        <br><br>
+    </header>
+
+    <section name="sectionForForm" type="SectionForm" id="formContainer" class="meme-container">
+
+        <form id="meme-form">
+
+            <label>
+                <h4> Go to internet and find an image <a href="http://google.com">Click Me</a> Once you find an image,
+                    right-click and choose 'save image address'</h2>
+                    Paste Image URL here:
+
+                    <br>
+                    <input name="URL" type="text" id="meme-url" placeholder="https://Enter URL here" required>
+
+            </label>
+            <br>
+            <br>
+            <label>
+                Enter Funny Text On Top Of Image:
+                <input name="funnyTextTop" type="text" id="text-topOfImage" placeholder="Enter funny intro header here"
+                    required>
+            </label>
+            <br>
+            <br>
+            <label>
+                Funny Text On Bottom Of Image:
+                <input name="funnyTextBottom" type="text" id="bottomOfImage" placeholder="Enter funny punchline here"
+                    required>
+            </label>
+            <br>
+            <br>
+
+            <button name="generateMemeButton" type="submit" id="meme-submit">Generate Meme 😄 </button>
+
+    </section>
+
+    <h3> Here is your meme<h3>
+
+
+
+
+            <section name="sectionForFormOutput" type="SectionFormOutput" id="formContainerOutput"
+                class="meme-container-Output">
+
+
+
+            </section>
+            <br><br>
+
+
+            <form id="happyRange">
+                How happy are you with this Meme Generator?
+                <input name="happy" type="range" id="rangeInput" min="1" max="10">
+                <p>Value: <output id="value"></output></p>
+
+
+                <br><br>
+
+                <button name="submitFeedbackButton" type="submitFeebdackType" id="submitFeedbackID">Submit
+                    Feedback</button>
+            </form>
+
+
+</body>
+
+<script type="text/javascript" src="app.js"></script>
+
+
+
+</html>
+<br><br>
+
+<a href="about.html" id="AboutUsLink">See Our About Page</a>

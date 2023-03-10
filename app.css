@@ -1,0 +1,187 @@
+h1 {
+    font-family: 'Great Vibes', cursive;
+    /*text decoration 3.1.13 in curriculum*/
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+}
+
+#submitFeedbackID {
+    color: rgb(22, 228, 50);
+}
+
+#submitFeedbackID:hover {
+    background-color: blue;
+}
+
+
+body {
+    margin: 14%;
+    margin-top: 40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    /* fontstack.com*/
+    /*google fonts - see h1 element style on index.html*/
+    background-color: rgb(241, 238, 8);
+
+    width: flex;
+}
+}
+
+
+
+header>h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3em;
+    < !--see curriculum 3.1.10 for em versus rem -->color: grey;
+
+}
+
+
+.meme-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    font-size: 1.4em;
+}
+
+
+.meme-container-Output {
+    display: flex;
+    width: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    color: rgb(185, 97, 178);
+    font-size: 2.0em;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: rgb(132, 62, 224);
+    border: 3px solid black
+}
+
+____------------------ .meme-container-Output>div {
+    display: flex;
+    width: flex;
+    height: flex;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+
+.meme-container-Output>div>img {
+    position: relative;
+    width: 100%;
+
+}
+
+.meme-container-Output>div>button {
+    font-size: .5em;
+    -webkit-border-radius: 30px 12px;
+    -moz-border-radius: 30px / 12px;
+    -webkit-box-shadow: 2px 2px 6px rgba(60, 214, 46, 1);
+
+    border-radius: 30px;
+    background-color: rgb(150, 150, 150);
+    color: white;
+    max-width: flex;
+    min-width: 230px;
+    border: 3px solid black;
+}
+
+
+
+________________________-------------------- .meme-container>form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border: 2px solid darkgrey;
+    flex: 1;
+    padding: 5px;
+}
+
+.meme-container-Output>form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid darkgrey;
+    flex: 1;
+    padding: 10px;
+}
+
+.meme-container>form>label {
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 1.3em;
+}
+
+button {
+    font-size: 2em;
+    -webkit-border-radius: 30px 12px;
+    -moz-border-radius: 30px / 12px;
+    -webkit-box-shadow: 2px 2px 6px rgba(60, 214, 46, 1);
+
+    border-radius: 30px;
+    background-color: rgb(150, 150, 150);
+    color: white;
+    max-width: 300px;
+    min-width: 230px;
+    border: 3px solid black
+}
+
+button:hover {
+    background-color: rgb(77, 204, 162);
+
+
+    /*more practice with google fonts, see comments in HTML Head*/
+    font-family: 'Permanent Marker', cursive;
+}
+
+#AboutUsLink:hover {
+    font-family: 'Permanent Marker', cursive
+}
+
+input {
+
+    border-radius: 30px;
+    padding: 3px;
+    padding-left: 10px;
+    font-size: 1.3em;
+}
+
+
+input:focus {
+    background-color: rgb(241, 238, 8)
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+#meme-submit {
+    width: 300px;
+    align-self: center;
+}
+
+/*test */
+.meme-container>button {
+    display: flex;
+
+    position: relative;
+
+    align-self: center;
+
+
+
+}
+
+nav {
+    hieght: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-size: 1.5em;
+}
